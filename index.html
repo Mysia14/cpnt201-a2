@@ -6,52 +6,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POMERANIAN COLLECTION</title>
-    <!--adicionar fontes e style.css-->
+    <link rel="stylesheet" href="style.css" <!--adicionar fontes e style.css-->
 
 </head>
-<header>
-    <h1>Image Optimization and Display Examination</h1>
-</header>
-<section>
-    <h2>Using just srcset with jpg images</h2>
 
-    <img src="/assets/images/sm/pom.colo.sm.jpg" alt="pomeranian no colo" srcset="/assets/images/sm/pom.colo.sm.jpg 500w,
-              assets/images/md/pom.colo.md.jpg 800w,
-              assets/images/lg/pom.colo.lg.jpg 1500w" loading="lazy">
-</section>
-<section>
+<body>
     <header>
-        <h2>Using sizes and srcset together with webp images</h2>
+        <h1>Pomeranian Lovers</h1>
     </header>
-    <img src="/assets/images/sm/pom.colo.sm.webp" alt="pomeranian no colo" sizes="" srcset="/assets/images/sm/pom.colo.sm.jpg 500w,
+    <div class="container">
+        <img src="assets/images/full/pom.colo.full.jpg" alt="pom1" />
+        <img src="assets/images/full/pom.grama.full.jpg" alt="pom2" />
+        <img src="assets/images/full/pom.looking.full.jpg" alt="pom3" />
+    </div>
+    <section>
+        <h2> Image Optimization</h2>
+
+        <img src="/assets/images/sm/pom.colo.sm.jpg" alt="pomeranian no colo" sizes="(min-width:850px) 85vw,(min-width:650px)80vw, 100vw" srcset="/assets/images/sm/pom.colo.sm.jpg 500w,
+    assets/images/md/pom.colo.md.jpg 800w,assets\images\large\lg-aurora-1-webp.webp 1200w" loading="lazy">
+
+        <img src="/assets/images/sm/pom.colo.sm.webp" alt="pomeranian no colo" sizes="" srcset="/assets/images/sm/pom.colo.sm.jpg 500w,
     assets/images/md/pom.colo.md.jpg 800w,
     assets/images/lg/pom.colo.lg.jpg 1500w" loading="lazy">
-</section>
 
-<section>
-    <header>
-        <h2>Things to test with these images</h2>
-    </header>
-    <ul>
-        <li>Visually test how the images are loaded by changing the browser width</li>
-        <li>Change the widths in srcset to see how things render at different sizes</li>
-        <li>Change the sizes breakpoints</li>
-        <li>
-            <h3>Modify the images</h3>
-            <ul>
-                <li>resize the images</li>
-                <li>change the quality</li>
-                <li>Keep them under 200kb</li>
-                <li>Add a visual marker on the different versions of webp images</li>
-            </ul>
-        </li>
-    </ul>
-</section>
-</main>
-<footer>
-    <p>&copy; Mysia Santana | MIT License</p>
-</footer>
+        <img src="/assets/images/sm/pom.colo.sm.webp" alt="pomeranian no colo" sizes="" srcset="/assets/images/sm/pom.colo.sm.jpg 500w,
+    assets/images/md/pom.colo.md.jpg 800w,
+    assets/images/lg/pom.colo.lg.jpg 1500w" loading="lazy">
 
+    </section>
+
+    <footer>
+        <p>&copy; Mysia Santana 2021 | MIT License</p>
+    </footer>
 </body>
 
 </html>
