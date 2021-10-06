@@ -15,3 +15,4 @@
 Obs:
 I spent coiple of hours trying to figure out why the images was not switching for the those one with filters. Curiously, when I changed my browser to "go live" I could see the real changes that I have done in the code.
 See images below : 
+![IMG_2025](https://user-images.githubusercontent.com/80990809/136121072-6fc1c79c-1a93-4e23-955d-db7dbc1a88d4.JPG)
